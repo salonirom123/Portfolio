@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
@@ -8,10 +7,10 @@ import { MdOutlineEmail } from "react-icons/md";
 import { IoCallOutline } from "react-icons/io5";
 import { GoArrowRight } from "react-icons/go";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Footer = () => {
- 
+ const navigate = useNavigate();
   return (
     <div className='overflow-y-hidden'>
       <div className='mt-[48px] pl-[12px] pr-[12px] bg-[#091E3E] md:h-[321.6px] h-auto md:flex'>
@@ -61,8 +60,8 @@ const Footer = () => {
             <div className='h-[3px] w-[90px] bg-[#196F8F] mt-[5px]'></div>
           </div>
           <div className='flex flex-col text-left '>
-            <Link to={'/'} className='mb-[8px] text-[16px] text-[#EEF9FF] flex items-center gap-1 duration-500 hover:translate-x-4 '><GoArrowRight className='text-blue-400'/>Home</Link>
-            <Link to={'/about'} className='mb-[8px] text-[16px] text-[#EEF9FF] flex items-center gap-1 duration-500 hover:translate-x-4'><GoArrowRight className='text-blue-400'/>CV/About</Link>
+            <button onClick={()=>navigate("/")} className='mb-[8px] text-[16px] text-[#EEF9FF] flex items-center gap-1 duration-500 hover:translate-x-4 '><GoArrowRight className='text-blue-400'/>Home</button>
+            <button onClick={()=>navigate("/about")} className='mb-[8px] text-[16px] text-[#EEF9FF] flex items-center gap-1 duration-500 hover:translate-x-4'><GoArrowRight className='text-blue-400'/>CV/About</button>
             <Link to={'/projects'} className='mb-[8px] text-[16px] text-[#EEF9FF] flex items-center gap-1 duration-500 hover:translate-x-4'><GoArrowRight className='text-blue-400'/>Projects</Link>
             <Link to={'/contact'} className='mb-[8px] text-[16px] text-[#EEF9FF] flex items-center gap-1 duration-500 hover:translate-x-4'><GoArrowRight className='text-blue-400'/>Contact</Link>
           </div>

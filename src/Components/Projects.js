@@ -28,7 +28,7 @@ const Projects = () => {
                     </div>
 
 
-                    <div className='h-[446px] w-[431.99px] md:mt-[70px] '>
+                    <div className='md:h-[446px] md:w-[431.99px] md:mt-[70px] '>
                         <div className='pt-[24px] pb-[24px] pl-[48px] pr-[48px] mb-[24px]'>
                             <h4 className='text-[24px] mb-[4px] font-bold text-[#06A3DA] text-left'>Kanban-board</h4>
                             <p className='text-[#6B6A75] text-[14px] text-left'>REACT | TAILWINDCSS | Redux </p>
@@ -39,7 +39,7 @@ const Projects = () => {
                     </div>
 
 
-                    <div className='h-[446px] w-[431.99px] md:mt-[70px] bg-gray-100'>
+                    <div className='md:h-[446px] md:w-[431.99px] md:mt-[70px] bg-gray-100'>
                         <div className='pt-[24px] pb-[24px] pl-[48px] pr-[48px] mb-[24px]'>
                             <h4 className='text-[24px] mb-[4px] font-bold text-[#06A3DA] text-left'>Swiggy-clone</h4>
                             <p className='text-[#6B6A75] text-[14px] text-left'>REACT | TAILWINDCSS | Redux</p>

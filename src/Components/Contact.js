@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div>
       <Common data={'Contact Me'}/>
-      <div className='h-[958px] pt-[48px] pb-[48px] pl-[12px] pr-[12px]'>
+      <div className='md:h-[958px] pt-[48px] pb-[48px] pl-[12px] pr-[12px]'>
         <div className='pt-[48px] pb-[48px] pl-[12px] pr-[12px]'>
         <div className='mb-[48px] pb-[16px] flex flex-col  items-center'>
            <h5 className='text-[#06A3DA] text-[20px] mb-[8px]  justify-center font-bold'>CONTACT ME</h5>
@@ -43,8 +43,11 @@ const Contact = () => {
           </div>
          </div>
         </div>
-        <div className='ml-[100px]'>
+        <div className='md:ml-[100px] hidden md:block'>
         <iframe width="700" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=700&amp;height=400&amp;hl=en&amp;q=madhay%20pradesh,%20khandwa%20%20punasa%20Rohani%20450112+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe>
+        </div>
+        <div className='ml-[20px] md:hidden'>
+        <iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=700&amp;height=400&amp;hl=en&amp;q=madhay%20pradesh,%20khandwa%20%20punasa%20Rohani%20450112+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps trackers</a></iframe>
         </div>
        </div>
     </div>
