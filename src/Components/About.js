@@ -6,8 +6,8 @@ const About = () => {
   return (
     <div>
       <Common data={'CV/About Me'} />
-      <div className='md:h-[596px] md:flex justify-center mt-[90px]'>
-        <div className='md:w-[783.99px] h-[500px] mt-[48px] pl-[24px] pr-[24px]'>
+      <div className='md:h-[596px] h-auto md:flex justify-center mt-[90px]'>
+        <div className='md:w-[783.99px] md:h-[500px] mt-[48px] pl-[24px] pr-[24px]'>
           <div className='mb-[48px] pb-[16px]'>
             <h5 className='text-[#06A3DA] text-[20px] mb-[8px] font-bold '>ABOUT ME</h5>
             <h1 className='md:text-[40px] text-[29px] text-[#091E3E] font-bold mt-[-2px]  md:break-words'>Full Stack Developer | Java  </h1>
@@ -21,8 +21,8 @@ const About = () => {
            <p className='text-[20px] text-[#6B6A75] mb-[24px]'>Personal Attributes:</p>
            <p className='text-[16px] text-[#6B6A75] mb-[24px]'>I am known for my problem-solving skills, attention to detail, and ability to work collaboratively in a team environment. My passion for coding drives me to stay updated with the latest industry trends and technologies, ensuring that I can deliver innovative solutions to complex problems.</p>
         </div>
-        <div className='md:w-[560px] md:h-[500px] md:mt-[48px] mt-[100px] pl-[24px] pr-[24px]'>
-          <img className='rounded-full md:h-[500px] md:w-[500px]' alt='' src={pic}/>
+        <div className='md:w-[560px] md:h-[500px] md:mt-[48px]  pl-[24px] pr-[24px]'>
+          <img className='rounded-full md:h-[500px] h-auto w-auto md:w-[500px]' alt='' src={pic}/>
         </div>
       </div>
 
@@ -45,10 +45,10 @@ const About = () => {
          <div className='md:h-[521px] md:w-[648px] top-0 md:mb-[24px] pl-[4px] pr-[4px]'>
            <h4 className='text-[#06A3DA] mb-[4px] text-[24px] font-bold mt-10'>SKILLS</h4>
            <small className='text-[14px] text-[#6B6A75]'>TECHNICAL:</small>
-           <h4 className='mb-[24px] mt-1 text-[20px] text-[#091E3E] flex items-center gap-5'><FaCubes className='text-[#06A3DA]'/> Object Oriented Programing, POP, Data Structure & Algorithms </h4>
+           <h4 className='mb-[24px] mt-1 text-[20px] text-[#091E3E] flex items-center gap-5'><FaCubes className='text-[#06A3DA] w-[40px]'/> Object Oriented Programing, POP, Data Structure & Algorithms </h4>
 
            <small className='text-[14px] text-[#6B6A75]'>PROGRAMING LANGUAGES & TECHNOLOGIES:</small>
-           <h4 className='mb-[24px] mt-1  text-[20px] text-[#091E3E] flex gap-5'><FaCubes className='text-[#06A3DA] mt-1 w-[30px]'/> SQL (SQLServer), C LANGUAGES, Java, React, Javascript, Redux, Visual Code </h4>
+           <h4 className='mb-[24px] mt-1  text-[20px] text-[#091E3E] flex gap-5'><FaCubes className='text-[#06A3DA] mt-1 w-[50px]'/> SQL (SQLServer), C LANGUAGES, Java, React, Javascript, Redux, Visual Code </h4>
            
            <small className='text-[14px] text-[#6B6A75]'>LANGUAGES :</small>
            <h4 className='mb-[24px] mt-1  text-[20px] text-[#091E3E] flex gap-5'><FaCubes className='text-[#06A3DA] mt-1 w-[30px]'/> English, Hindi(native)</h4>

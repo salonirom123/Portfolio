@@ -7,7 +7,7 @@ const Technical = () => {
        <div className='pl-[12px] pr-[12px] md:pt-[48px] md:h-[594.8px] h-auto  pb-[48px]'>
          <div className='mb-[24px]  pb-[16px] flex flex-col items-center'>
             <h5 className='text-[#06A3DA] text-[20px] font-bold mb-[8px]'>TECHNICAL SKILLS</h5>
-            <h1 className='text-[#091E3E] font-bold md:text-[40px] text-[29px] mt-[-9px]'>Some of Skills I working on.</h1>
+            <h1 className='text-[#091E3E] font-bold md:text-[40px] text-center text-[29px] mt-[-9px]'>Some of Skills I working on.</h1>
             <div className='w-[150px] h-[5px] bg-[#196F8F] rounded-xl mt-[10px] mb-[-55px] '>
            </div> 
          </div>

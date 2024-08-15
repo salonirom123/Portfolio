@@ -6,7 +6,7 @@ const PersonalSkill = () => {
        
         <div className='mb-[48px] pb-[16px] flex flex-col  items-center'>
            <h5 className='text-[#06A3DA] text-[20px] mb-[8px] font-medium justify-center'>PERSONAL SKILLS</h5>
-           <h1 className='text-[40px] text-[#091E3E] font-bold mt-[-12px]  break-words'>My Personal Skills</h1>
+           <h1 className='md:text-[40px] text-[29px] text-[#091E3E] font-bold mt-[-12px]  break-words'>My Personal Skills</h1>
            <div className='w-[150px] h-[5px] bg-[#196F8F] rounded-xl mt-[10px] mb-[-55px] '>
            </div>
          </div>

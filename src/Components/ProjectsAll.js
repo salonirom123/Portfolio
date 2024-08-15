@@ -17,7 +17,7 @@ const ProjectsAll = () => {
            <div className='w-[150px] h-[5px] bg-[#196F8F] rounded-xl mt-[10px] mb-[-55px] '>
            </div>
          </div>
-      <div className='mt-[60px] ml-[50px] gap- md:grid md:grid-cols-3 justify-center md:ml-[200px] mr-[200px]'>
+      <div className='mt-[60px] ml-[22px] gap- md:grid md:grid-cols-3 flex-col items-center justify-center md:ml-[200px] mr-[200px]'>
         <ProjPart1 img={Kanban} data1={'React Js'} data2={'Redux Js'} data3={'TailwindCSS'} name={'Kanban-Board'} desc={'A Kanban-board project organizes tasks visually on a board, representing different stages of a workflow. It enhances project management by tracking progress, prioritizing tasks, and improving team collaboration and efficiency.'}/>
         <ProjPart1 img={Swiggy} data1={'React Js'} data2={'Redux Js'} data3={'TailwindCSS'} name={'Swiggy-clone'} desc={'The Swiggy-clone project involves creating a food delivery app replica, featuring user authentication, restaurant listings, menu browsing, order placement, real-time tracking, and payment integration, providing an experience similar to Swiggy.'}/>
         <ProjPart1 img={jit} data1={'React Js'} data2={''} data3={'TailwindCSS'} name={'JIT-Page'} desc={'it contains the information about our institute we can say it is a official site of jawaharlaal institute of technology borawan. in this site we can pay fee to our institute'}/>

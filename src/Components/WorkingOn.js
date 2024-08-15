@@ -7,7 +7,7 @@ const WorkingOn = () => {
        <div className='md:h-[753px] pt-[48px] pb-[48px] md:pl-[12px] md:pr-[12px]'>
           <div className='mb-[48px] pb-[16px] flex flex-col  items-center'>
            <h5 className='text-[#06A3DA] text-[20px] mb-[8px] font-medium justify-center'>AREAS OF INTEREST</h5>
-           <h1 className='md:text-[40px] text-[29px] text-[#091E3E] font-bold mt-[-12px]  md:break-words text-center'>Take a look some of things  </h1>
+           <h1 className='md:text-[40px] text-[29px] text-[#091E3E] font-bold mt-[-12px]  md:break-words text-center'>Take a look some of things</h1>
            <h1 className='md:text-[40px] text-[29px] text-[#091E3E] font-bold mt-[-12px] md:break-words '>I love working on.</h1>
            <div className='w-[150px] h-[5px] bg-[#196F8F] rounded-xl mt-[10px] mb-[-55px] '>
            </div>  

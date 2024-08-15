@@ -83,7 +83,7 @@ const Footer = () => {
 
       <div className='md:h-[75px] mt-[-49px] h-[80px] bg-[#061429] md:pl-[12px] md:pr-[12px]'>
         <div className='pl-[12px] pr-[12px] '>
-          <p className='text-[16px] h-20 text-[#FFFFFF]  flex justify-center items-center '><AiOutlineCopyrightCircle className=''/> salonirom254.... All Rights Reseved. Designed by Me</p>
+          <p className='text-[16px] h-20 text-[#FFFFFF]  flex justify-center items-center '><AiOutlineCopyrightCircle className='md:mt-0 mt-[-19px]'/> salonirom254.... All Rights Reseved. Designed by Me</p>
         </div>
       </div>
 
